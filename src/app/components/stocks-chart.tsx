@@ -1,5 +1,5 @@
 "use client"
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import CanvasJSReact from '@canvasjs/react-stockcharts';
 
 var CanvasJS = CanvasJSReact.CanvasJS;

@@ -2,6 +2,9 @@
   "name": "stocks-chart",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "20"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -10,6 +13,7 @@
   },
   "dependencies": {
     "@canvasjs/react-stockcharts": "^1.0.2",
+    "@canvasjs/stockcharts": "^1.10.17",
     "next": "14.2.5",
     "react": "^18",
     "react-dom": "^18"
